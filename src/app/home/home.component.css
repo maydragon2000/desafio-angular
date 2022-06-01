@@ -1,0 +1,148 @@
+.home .header {
+    display: flex;
+    justify-content: flex-end;
+    height: 100px;
+    background-color: #12203d;
+    align-items: center;
+}
+
+.home .header .search-wrap img {
+    width: 20px;
+}
+
+.dropdown {
+    margin-right: 50px;
+}
+
+.dropdown .dropdown-button {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown .dropdown-button:focus {
+    box-shadow: none;
+}
+
+.bell {
+    width: 35px;
+    fill: white;
+    margin-right: 30px;
+}
+
+.home .header a {
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.home .header .search-wrap {
+    border: solid 1px #42506d;
+    height: 40px;
+    width: 350px;
+    background-color: #04091f;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 0px 20px;
+}
+
+.home .header .search-wrap .search-icon {
+    width: 20px;
+    fill: white;
+    margin-right: 10px;
+}
+
+.home .header .search-wrap input {
+    background-color: transparent;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+.home .header .search-wrap input:focus-visible {
+    outline: none;
+}
+
+.home .title {
+    height: 250px;
+    background-color: #213945;
+    padding-top: 70px;
+}
+
+.home .title h5 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+}
+
+.home .content {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+
+.home .content h2 {
+    color: #2a393f;
+    font-size: 30px;
+    width: 60%;
+}
+
+.home .content-inner {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.home .content-inner .category {
+    width: 30%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-right: 3%;
+}
+
+.home .content-inner .category h5 {
+    color: white;
+    font-size: 20px;
+}
+
+.home .content-inner .category p {
+    color: white;
+    font-size: 14px;
+}
+
+.home .content-inner .arrow-right {
+    width: 20px;
+    fill: white;
+}
+
+.chat-button {
+    position: fixed;
+    background: transparent;
+    border: 0px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-button img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}

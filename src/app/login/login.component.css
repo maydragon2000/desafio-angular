@@ -1,0 +1,192 @@
+.login-page {
+    background-color: #f6f6f6;
+    height: 100vh;
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 30px;
+    box-shadow: 0px 100px 44px #97a1b238;
+}
+
+.login-header {
+    padding: 0px 30px;
+}
+
+.login-header .img-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.login img {
+    width: 130px;
+    height: 130px;
+}
+
+.login-header-border {
+    border-bottom: solid 1px gray;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login-header-border p {
+    font-size: 20px;
+    margin-bottom: -40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    justify-content: center;
+}
+
+.login-content {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.login-content .username-wrap {
+    width: 90%;
+    height: 70px;
+    border: solid 1px #c7c7c7;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.login-content .username-wrap p {
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.login-content .username-wrap input {
+    font-size: 20px;
+    width: 95%;
+    border: 0px;
+}
+
+.login-content .username-wrap input:focus-visible {
+    outline: none;
+}
+
+.login-content .username-wrap input:focus-visible~p {
+    color: #0787f0;
+}
+
+.login-content .username-wrap:focus-within {
+    border-color: #0787f0;
+}
+
+.login-content .password-wrap:focus-within {
+    border-color: #0787f0;
+}
+
+.login-content .password-wrap {
+    width: 90%;
+    height: 70px;
+    border: solid 1px #c7c7c7;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.login-content .password-wrap p {
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.login-content .password-wrap input {
+    font-size: 20px;
+    width: 95%;
+    border: 0px;
+}
+
+.login-content .password-wrap input:focus-visible {
+    outline: none;
+}
+
+.login-content .session-button {
+    background-color: #8dc83b;
+    width: 95%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    opacity: .9;
+    cursor: pointer;
+}
+
+.login-content .session-button:hover {
+    opacity: 1;
+}
+
+.login-content .forget-password {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #0787f0;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.login-footer {
+    background-color: #f6f6f6;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-footer .register-up {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.login-footer .register-button {
+    width: 95%;
+    height: 50px;
+    border: solid 1px #0787f0;
+    color: #0787f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login-footer .register-button:hover {
+    background: #0787f0;
+    color: white;
+}
+
+.chat-button {
+    position: fixed;
+    background: transparent;
+    border: 0px;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chat-button img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
